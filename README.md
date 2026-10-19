@@ -3,7 +3,7 @@
 -   Integrantes: Diego Alvarez, Ariel Carrasco, Gabriel Reyes
 -   Url del repositorio: https://github.com/Churrascooo/Laboratorio2Web.git
 -   Pasos de creacion/activacion entorno virtual:
-    1. Desde la temrminal: cd C: \Users\Estudiante\Desktop\laboratorio2
+    1. Desde la terminal: cd C: \Users\Estudiante\Desktop\laboratorio2
     2. Crear entorno virtual: py -m venv .venv
     3. Activarlo en Windows CMD: .venv\Scripts\activate.bat
     4. Instalar dependencias: python -m pip install --upgrade pip
@@ -24,7 +24,7 @@ BeautifulSoup es una biblioteca de Python la cual sirve para analizar (hacer par
 
 El principal riesgo es que el código de extracción (scraper) se vuelve frágil y dejará de funcionar si los administradores del sitio web realizan actualizaciones en el diseño o en la estructura de la página.
 
-Si el sitio web cambia los nombres de las clases (class), los identificadores (id), o la jerarquía de las etiquetas HTML (por ejemplo, envolviendo el precio en un nuevo <div>), los selectores en BeautifulSoup ya no encontrarán ninguna coincidencia. 
+Si el sitio web cambia los nombres de las clases (class), los identificadores (id), o la jerarquía de las etiquetas HTML (por ejemplo, envolviendo el precio en un nuevo div) , los selectores en BeautifulSoup ya no encontrarán ninguna coincidencia. 
 Las principales concencuencias serian las siguientes:
  
  - La extracción fallará silenciosamente, devolviendo listas vacías o valores nulos (None).
